@@ -17,6 +17,13 @@ public class Main {
 
         estudiante.mostrarInformacion();
 
+        if (edad >=18) {
+            System.out.println("Acceso autorizado.");
+        } else {
+            System.out.println("Acceso restringido.");
+
+        }
+
 
     }
 }
