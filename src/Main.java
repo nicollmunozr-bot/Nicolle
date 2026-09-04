@@ -13,8 +13,7 @@ public class Main {
         System.out.println("Ingrese edad: ");
         int edad = scanner.nextInt();
 
-        Estudiante estudiante = new Estudiante(
-                "Nicolle", "Ingeniería en Informática", 31);
+        Estudiante estudiante = new Estudiante(nombre,carrera,edad);
 
         estudiante.mostrarInformacion();
 
