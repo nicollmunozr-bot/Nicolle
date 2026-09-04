@@ -2,6 +2,11 @@ import java.util.Scanner; //TIP To <b>Run</b> code, press <shortcut actionId="Ru
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public Main() {
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Procesando estudiante " + i);
+
+        }
     }
 
     public static void main(String[] args) {
