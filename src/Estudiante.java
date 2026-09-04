@@ -1,4 +1,4 @@
-public class ESTUDIANTE {
+public class Estudiante {
     private String nombre;
     private String carrera;
     private int edad;
@@ -27,11 +27,15 @@ public class ESTUDIANTE {
         this.edad = edad;
     }
 
-    public ESTUDIANTE(String nombre, String carrera, int edad) {
+    public Estudiante(String nombre, String carrera, int edad) {
         this.nombre = nombre;
         this.carrera = carrera;
         this.edad = edad;
 
-
+    }
+    public void mostrarInformacion() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Carrera: " + carrera);
+        System.out.println("Edad: " + edad);
     }
 }
